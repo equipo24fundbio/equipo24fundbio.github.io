@@ -1517,6 +1517,19 @@ section {
 .faq .faq-list a.collapsed i::before {
   content: "\eab2" !important;
 }
+/*--------------------------------------------------------------
+# Proyecto Entregable 
+--------------------------------------------------------------*/
+
+.award-img {
+  height: 120px;
+  margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: #eff0f3;
+}
+
 
 /*--------------------------------------------------------------
 # Contact
