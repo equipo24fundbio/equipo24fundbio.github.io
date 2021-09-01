@@ -778,6 +778,13 @@ section {
   padding: 60px 0;
 }
 
+.divisor {
+  background: #3fbbc0;
+  color: #fff;
+  background-size: cover;
+  padding: 20px 0;
+}
+
 .cta h3 {
   font-size: 28px;
   font-weight: 700;
