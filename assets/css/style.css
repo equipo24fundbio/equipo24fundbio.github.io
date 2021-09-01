@@ -782,7 +782,7 @@ section {
   background: #3fbbc0;
   color: #fff;
   background-size: cover;
-  padding: 20px 0;
+  padding: 16px 0;
 }
 
 .cta h3 {
@@ -1117,7 +1117,7 @@ section {
 
 .departments .tab-pane img {
   float: left;
-  max-width: 300px;
+  max-width: 500px;
   padding: 0 15px 15px 0;
 }
 
