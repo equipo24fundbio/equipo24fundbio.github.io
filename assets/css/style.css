@@ -1950,7 +1950,7 @@ section {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero:before {
+#heros:before {
   content: "";
   background: rgba(56, 64, 70, 0.7);
   position: absolute;
@@ -1960,11 +1960,11 @@ section {
   right: 0;
 }
 
-#hero .container {
+#heros .container {
   z-index: 2;
 }
 
-#hero h1 {
+#heros h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -1972,17 +1972,17 @@ section {
   color: #fff;
 }
 
-#hero h1 span {
+#heros h1 span {
   border-bottom: 4px solid #3498db;
 }
 
-#hero h2 {
+#heros h2 {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 30px;
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#heros .btn-get-started {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 13px;
@@ -1996,22 +1996,22 @@ section {
   text-transform: uppercase;
 }
 
-#hero .btn-get-started:hover {
+#heros .btn-get-started:hover {
   background: #4ea5e0;
 }
 
 @media (max-width: 992px) {
-  #hero {
+  #heros {
     height: calc(100vh - 70px);
   }
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #heros h1 {
     font-size: 30px;
     line-height: 36px;
   }
-  #hero h2 {
+  #heros h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
