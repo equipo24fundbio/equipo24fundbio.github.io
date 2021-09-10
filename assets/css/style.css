@@ -2024,6 +2024,192 @@ section {
     margin-bottom: 30px;
   }
 }
+
+/*--------------------------------------------------------------
+# Portfolios Entregable 2
+--------------------------------------------------------------*/
+.portfolios .portfolios-item {
+  margin-bottom: 30px;
+}
+
+.portfolios #portfolios-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+.portfolios #portfolios-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px 10px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50px;
+}
+
+.portfolios #portfolios-flters li:hover, .portfolios #portfolios-flters li.filter-active {
+  color: #fff;
+  background: #34b7a7;
+}
+
+.portfolios #portfolios-flters li:last-child {
+  margin-right: 0;
+}
+
+.portfolios .portfolios-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(34, 34, 34, 0.6);
+}
+
+.portfolios .portfolios-wrap::before {
+  content: "";
+  background: rgba(34, 34, 34, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.portfolios .portfolios-wrap img {
+  transition: all ease-in-out 0.3s;
+}
+
+.portfolios .portfolios-wrap .portfolios-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.portfolios .portfolios-wrap .portfolios-info h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.portfolios .portfolios-wrap .portfolios-info p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+.portfolios .portfolios-wrap .portfolios-links {
+  text-align: center;
+  z-index: 4;
+}
+
+.portfolios .portfolios-wrap .portfolios-links a {
+  color: #fff;
+  margin: 0 5px 0 0;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.portfolios .portfolios-wrap .portfolios-links a:hover {
+  color: #78d9cd;
+}
+
+.portfolios .portfolios-wrap:hover::before {
+  opacity: 1;
+}
+
+.portfolios .portfolios-wrap:hover img {
+  transform: scale(1.2);
+}
+
+.portfolios .portfolios-wrap:hover .portfolios-info {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details - Entrgable 2
+--------------------------------------------------------------*/
+.portfolios-details {
+  padding: 0;
+}
+
+.portfolios-details .portfolios-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolios-details .portfolios-details-carousel .owl-nav, .portfolios-details .portfolios-details-carousel .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.portfolios-details .portfolios-details-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.portfolios-details .portfolios-details-carousel .owl-dot.active {
+  background-color: #34b7a7 !important;
+}
+
+.portfolios-details .portfolios-info {
+  padding-top: 45px;
+}
+
+.portfolios-details .portfolios-info h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.portfolios-details .portfolios-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolios-details .portfolios-info ul li + li {
+  margin-top: 10px;
+}
+
+.portfolios-details .portfolios-info p {
+  font-size: 15px;
+  padding: 15px 0 0 0;
+}
+
+@media (max-width: 992px) {
+  .portfolios-details .portfolios-info {
+    padding-top: 20px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
