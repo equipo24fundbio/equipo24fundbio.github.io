@@ -971,6 +971,24 @@ text-align:center;
 .features .contenedor-imagenes img:first-child {
   margin-right: 10px;
 }
+
+
+#foto{
+    max-width: 40%;
+height: auto;
+margin: 20px;
+padding: 5px;
+display: inline-block;
+margin: auto;
+}
+#foto2{
+    max-width: 40%;
+height: auto;
+margin: 20px;
+padding: 5px;
+display: inline-block;
+margin: auto;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
