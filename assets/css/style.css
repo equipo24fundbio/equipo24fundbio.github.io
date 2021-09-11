@@ -974,7 +974,7 @@ text-align:center;
 
 
 #foto{
-    max-width: 40%;
+    max-width: 45%;
 height: auto;
 margin: 20px;
 padding: 5px;
@@ -982,13 +982,14 @@ display: inline-block;
 margin: auto;
 }
 #foto2{
-    max-width: 40%;
+    max-width: 45%;
 height: auto;
 margin: 20px;
 padding: 5px;
 display: inline-block;
 margin: auto;
 }
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
