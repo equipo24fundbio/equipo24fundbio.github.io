@@ -964,7 +964,13 @@ width:200px;
 text-align:center;
 }
 
+.features .contenedor-imagenes {
+  display: flex;
+}
 
+.features .contenedor-imagenes img:first-child {
+  margin-right: 10px;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
