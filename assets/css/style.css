@@ -953,6 +953,19 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Imágenes juntas
+--------------------------------------------------------------*/
+.features .imagenes{
+background-color: #ffffff;
+padding: 5px 10px 5px 10px;
+margin:2px;
+float:left;
+width:200px;
+text-align:center;
+}
+
+
+/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
@@ -2246,22 +2259,6 @@ section {
   background: #8fc04e;
   border: 2px solid #8fc04e;
 }
-/*--------------------------------------------------------------
-# Imágenes juntas
---------------------------------------------------------------*/
-#juntos{
-  text-align: center;
-}
-
-.imga1 {
-  background-image: url(assets/img/entregable2/genes_prevalencia.PNG);
-  padding: 5px 10px 5px 10px;
-  margin: 2px;
-  display:inline-block;
-  width: 200px;
-  text-align: center;
-}
-
 
 /*--------------------------------------------------------------
 # Footer
