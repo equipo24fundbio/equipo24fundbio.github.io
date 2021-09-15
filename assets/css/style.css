@@ -2436,6 +2436,54 @@ margin: auto;
 }
 
 /*--------------------------------------------------------------
+# Entregable 3
+--------------------------------------------------------------*/
+.entre3 {
+  padding: 60px 0;
+}
+
+.entre3 .entre3-list {
+  padding: 0;
+  list-style: none;
+}
+
+.entre3 .entre3-list li {
+  padding: 0 0 20px 25px;
+}
+
+.entre3.entre3-list a {
+  display: block;
+  position: relative;
+  font-family: #3fbbc0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.entre3 .entre3-list i {
+  font-size: 18px;
+  position: absolute;
+  left: -25px;
+  top: 6px;
+}
+
+.entre3 .imagenes{
+background-color: #d3fdff;
+padding: 5px 10px 5px 10px;
+margin:2px;
+float:left;
+width:200px;
+text-align:center;
+}
+
+.entre3 .contenedor-imagenes {
+  display: flex;
+}
+
+.entre3 .contenedor-imagenes img:first-child {
+  margin-right: 10px;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
