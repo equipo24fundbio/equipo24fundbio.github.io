@@ -2084,6 +2084,94 @@ margin: auto;
 }
 
 /*--------------------------------------------------------------
+# Heros entregable 3 Section
+--------------------------------------------------------------*/
+#herosa {
+  width: 100%;
+  height: 60vh;
+  background: url("../img/diaphragm pacing.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#herosa:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#herosa .herosa-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
+
+#herosa h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#herosa h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#herosa .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #8fc04e;
+  color: #fff;
+}
+
+#herosa .btn-get-started:hover {
+  background: #8fc04e;
+}
+
+@media (min-width: 1024px) {
+  #herosa {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #herosa {
+    height: 100vh;
+  }
+  #herosa h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herosa h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Portfolios Entregable 2
 --------------------------------------------------------------*/
 .portfolios .portfolios-item {
