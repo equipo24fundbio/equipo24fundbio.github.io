@@ -2471,8 +2471,10 @@ margin: auto;
 
 .entre3 .imagenes{
 background-color: #d3fdff;
-max-width: 100%;
-height: auto;
+padding: 5px 10px 5px 10px;
+margin:2px;
+float:left;
+width:200px;
 text-align:center;
 }
 
