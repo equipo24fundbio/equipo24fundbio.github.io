@@ -1270,6 +1270,35 @@ margin: auto;
   padding: 0 15px 15px 0;
 }
 
+.departments .tab-panes.active {
+  -webkit-animation: slide-down 0.5s ease-out;
+  animation: slide-down 0.5s ease-out;
+}
+
+}
+
+@media (max-width: 768px) {
+  .departments .tab-panes img {
+    float: none;
+    padding: 0 0 15px 0;
+    max-width: 100%;
+  }
+}
+
+.departments .tab-panes h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #3fbbc0;
+}
+
+.departments .tab-panes p {
+  color: #777777;
+}
+
+.departments .tab-panes p:last-child {
+  margin-bottom: 0;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
