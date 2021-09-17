@@ -2740,7 +2740,7 @@ text-align:center;
 #heror .carousel-inner .carousel-item-next.carousel-item-left,
 #heror .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
-  transition: 600s;
+  transition: 0.5s;
 }
 
 #heror .carousel-inner .carousel-item-next,
