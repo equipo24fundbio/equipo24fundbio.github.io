@@ -2615,8 +2615,8 @@ text-align:center;
 }
 
 .department .tab-pane img {
-  max-width:300px;
-  padding: 0 15px 15px 0;
+  max-width:100px;
+  height: auto;
 }
 
 @media (max-width: 768px) {
