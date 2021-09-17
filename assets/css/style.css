@@ -2704,7 +2704,7 @@ text-align:center;
   border-top: 4px solid #3fbbc0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 300px) {
   #heror .container {
     margin-left: 50px;
     margin-right: 50px;
