@@ -1266,6 +1266,7 @@ margin: auto;
 }
 
 .departments .tab-panes img {
+  float: center;
   max-width:300px;
   padding: 0 15px 15px 0;
 }
