@@ -2667,88 +2667,177 @@ text-align:center;
 /*--------------------------------------------------------------
 # Carousel dispositivos de mercado
 --------------------------------------------------------------*/
-.carousel-wrapper{
-  height:400px;
-  position:relative;
-  width:800px;
-  margin:0 auto;
-}
-.carousel-wrapper .carousel-item{
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  padding:25px 50px;
-  opacity:0;
-  transition: all 0.5s ease-in-out;
-}
-.carousel-wrapper .arrow{
-  border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 12px;
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#heror {
+  width: 100%;
+  height: 80vh;
+  background-color: rgba(22, 30, 56, 0.8);
+  overflow: hidden;
+  position: relative;
 }
 
-.carousel-wrapper .arrow-prev{
-  left:-30px;
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%) rotate(135deg);
+#heror .carousel, #heror .carousel-inner, #heror .carousel-item, #heror .carousel-item::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
- 
-.carousel-wrapper .arrow-next{
-    right:-30px;
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%) rotate(-45deg);
+
+#heror .carousel-item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#heror .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 70px;
+  left: 50px;
+  right: 50px;
+}
+
+#heror .container {
+  text-align: center;
+}
+
+#heror h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#heror p {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+
+#heror .carousel-inner .carousel-item {
+  transition-property: opacity;
+  background-position: center top;
+}
+
+#heror .carousel-inner .carousel-item,
+#heror .carousel-inner .active.carousel-item-left,
+#heror .carousel-inner .active.carousel-item-right {
+  opacity: 0;
+}
+
+#heror .carousel-inner .active,
+#heror .carousel-inner .carousel-item-next.carousel-item-left,
+#heror .carousel-inner .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#heror .carousel-inner .carousel-item-next,
+#heror .carousel-inner .carousel-item-prev,
+#heror .carousel-inner .active.carousel-item-left,
+#heror .carousel-inner .active.carousel-item-right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+#heror .carousel-control-prev, #heror .carousel-control-next {
+  width: 10%;
+  top: 82px;
+}
+
+@media (max-width: 992px) {
+  #heror .carousel-control-prev, #heror .carousel-control-next {
+    top: 58px;
   }
-
-.carousel-wrapper .light{
-  color:white;
 }
 
-@media (max-width: 480px) {
-      .carousel-wrapper .arrow, .light .arrow {
-        background-size: 10px;
-        background-position: 10px 50%;
-      }
-    }
+#heror .carousel-control-next-icon, #heror .carousel-control-prev-icon {
+  background: none;
+  font-size: 36px;
+  line-height: 1;
+  width: auto;
+  height: auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  padding: 10px;
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-/*Select every element*/
-[id^="item"] {
-    display: none;
-  }
-
-.carousel-wrapper .item-1 {
-    z-index: 2;
-    opacity: 1;
-  background:url('https://static.pexels.com/photos/6526/sea-beach-holiday-vacation-large.jpg');
-  background-size:cover;
-  }
-.carousel-wrapper .item-2{
-  background:url('https://static.pexels.com/photos/6506/alcohol-bar-drinks-party-large.jpg');
-   background-size:cover;
-}
-.carousel-wrapper .item-3{
-  background:url('https://static.pexels.com/photos/6529/lake-kajak-kayak-large.jpg');
-   background-size:cover;
+#heror .carousel-control-next-icon:hover, #heror .carousel-control-prev-icon:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.8);
 }
 
-*:target ~ .item-1 {
-    opacity: 0;
-  }
+#heror .carousel-indicators li {
+  cursor: pointer;
+  background: #fff;
+  overflow: hidden;
+  border: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  opacity: .6;
+  transition: 0.3s;
+}
 
-#item-1:target ~ .item-1 {
-    opacity: 1;
-  }
+#heror .carousel-indicators li.active {
+  opacity: 1;
+  background: #006fbe;
+}
 
-#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
-    z-index: 3;
-    opacity: 1;
+#heror .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  background: #006fbe;
+}
+
+#heror .btn-get-started:hover {
+  background: #007ed8;
+}
+
+@media (max-width: 992px) {
+  #heror {
+    height: 100vh;
+  }
+  #heror .carousel-container {
+    top: 8px;
   }
 }
+
+@media (max-width: 768px) {
+  #heror h2 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #heror .carousel-control-prev, #hero .carousel-control-next {
+    width: 5%;
+  }
+}
+
+@media (max-height: 500px) {
+  #heror {
+    height: 120vh;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Footer
