@@ -2808,6 +2808,8 @@ text-align:center;
   transition: 0.5s;
   line-height: 1;
   color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
   background: #3fbbc0;
 }
 
