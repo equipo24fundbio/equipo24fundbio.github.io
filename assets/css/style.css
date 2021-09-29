@@ -685,6 +685,18 @@ section {
   background-color: #558442;
 }
 
+.section-cremaoscuro{
+  background-color: #f1efd5;
+}
+
+.section-cremamuyclaro{
+  background-color: #fefdef;
+}
+
+.section-beige{
+  background-color: #fdf9d2;
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
