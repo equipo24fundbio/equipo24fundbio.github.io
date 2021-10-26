@@ -3523,7 +3523,7 @@ text-align:center;
   }
 }
 
-.hito2.hero-waves {
+.hero-waves {
   display: block;
   margin-top: 60px;
   width: 100%;
@@ -3532,21 +3532,21 @@ text-align:center;
   position: relative;
 }
 
-.hito2.wave1 use {
+.wave1 use {
   -webkit-animation: move-forever1 10s linear infinite;
   animation: move-forever1 10s linear infinite;
   -webkit-animation-delay: -2s;
   animation-delay: -2s;
 }
 
-.hito2.wave2 use {
+.wave2 use {
   -webkit-animation: move-forever2 8s linear infinite;
   animation: move-forever2 8s linear infinite;
   -webkit-animation-delay: -2s;
   animation-delay: -2s;
 }
 
-.hito2.wave3 use {
+.wave3 use {
   -webkit-animation: move-forever3 6s linear infinite;
   animation: move-forever3 6s linear infinite;
   -webkit-animation-delay: -2s;
