@@ -694,9 +694,7 @@ section {
   background-color: #fefdef;
 }
 
-.section-beige{
-  background-color: #fdf9d2;
-}
+
 
 .section-beigeclaro{
   background-color: #fffde8;
@@ -726,8 +724,17 @@ section {
   background-color: #b8dcff ;
 }
 
+/*--------------------------------------------------------------*/
 .section-marron{
   background-color: #5a352c;
+}
+
+.section-beige{
+  background-color: #fdf9d2;
+}
+
+.section-beigemuyclaro{
+  background-color: #fdf9f1;
 }
 
 /*--------------------------------------------------------------
